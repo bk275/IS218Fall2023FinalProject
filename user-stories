@@ -1,21 +1,20 @@
 Epic (Awareness): Jake searches online for a "car dealership"  
-&nbsp; User Story 1: 
-&nbsp; Jake sees the website in Google search results.  
-&nbsp; Action: Click on the title "Car Dealership - Just the Facts and Figures"
-&nbsp; Result: See the homepage of our car dealership.
-Epic (Interest): Jake sees our website and is heavily interested in furthering his car research because of the usage of charts and seemingly reliable data (authority).
-&nbsp; User Story 2:  
-&nbsp; Jake sees the description of the car dealership.  
-&nbsp; Action: The search result description uses wording to explain how it uses data and social proof to convince users to buy their cars.  
-&nbsp; Result: N/A
-He also sees information about how our cars go to mechanics less often and stay on the road much longer (social proof/consistency).  
+    User Story 1: 
+    Jake sees the website in Google search results.  
+    Action: Click on the title "Car Dealership - Just the Facts and Figures"
+    Result: See the homepage of our car dealership.
+Epic (Interest): Jake sees our website and is heavily interested in furthering his car research because of the usage of charts and seemingly reliable data (authority).  
+    User Story 2:  
+    Jake sees the description of the car dealership.  
+    Action: The search result description uses wording to explain how it uses data and social proof to convince users to buy their cars.  
+    Result: N/A
 Epic (Action): Jake sees a link to sign up his email.  
-&nbsp; User Story 3:  
-&nbsp; Jake sees the link to sign up, using his email, to get a limited data sheet about each car that he may be interested in also lets a salesperson get in contact with him.  
-&nbsp; Action: Jake clicks a "Sign Me Up" button.  
-&nbsp; Result: Jake is entered into the company's central database and gets an introductory email.  
+    User Story 3:  
+    Jake sees the link to sign up, using his email, to get a limited data sheet about each car that he may be interested in also lets a salesperson get in contact with him.  
+    Action: Jake clicks a "Sign Me Up" button.  
+    Result: Jake is entered into the company's central database and gets an introductory email.  
 Epic (Loyalty): Jake sees a loyalty program in the email he receives.   
-&nbsp; User Story 4:  
-&nbsp; Jake sees a loyalty program that provides more information about the cars he's interested in as well as comparison charts to specific models from other competitors that he may be interested in.  
-&nbsp; Action: N/A  
-&nbsp; Result: Jake sees more information about the cars he's interested in, as well as information about their competitors.  
+    User Story 4:  
+    Jake sees a loyalty program that provides more information about the cars he's interested in as well as comparison charts to specific models from other competitors that he may be interested in.  
+    Action: N/A  
+    Result: Jake sees more information about the cars he's interested in, as well as information about their competitors.  

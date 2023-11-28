@@ -1,5 +1,5 @@
 [Competitive Analysis](/competitive-analysis)  
 [SWOT Analysis](/SWOT)  
 [Persona](/persona)  
-[Sales Funnel]  
+[Sales Funnel](/sales-funnel)  
 [User Stories](/user-stories)

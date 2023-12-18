@@ -74,10 +74,17 @@ const Navbar = () => {
             color: '#000',
             fontSize: '1rem',
             cursor: 'pointer',
+            marginRight: '16px',
           }}
         >
           Contact Us
         </Box>
+        {/* Logo Image */}
+        <img
+          src="/car_logo.png"
+          alt="Logo"
+          style={{ height: '70px', maxWidth: '100%', marginLeft: '16px', cursor: 'pointer' }}
+        />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center', color: '#fff' }}>
           {/* Navigation Content Goes Here */}
         </Typography>

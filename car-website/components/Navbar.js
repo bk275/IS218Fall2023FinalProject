@@ -3,12 +3,27 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 const Navbar = () => {
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#C3CEDB' }}>
+    <AppBar position="static" sx={{ backgroundColor: '#88835C' }}>
       <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
+        <Box
+          component="div"
+          sx={{
+            backgroundColor: '#C3CEDB',
+            padding: '8px 16px',
+            borderRadius: '4px',
+            color: '#88835C',
+            fontSize: '1rem',
+            cursor: 'pointer',
+            marginRight: '16px',
+          }}
+        >
+          Home
+        </Box>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center', color: '#fff' }}>
           {/* Navigation Content Goes Here */}
         </Typography>
       </Toolbar>

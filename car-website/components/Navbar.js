@@ -79,7 +79,7 @@ const Navbar = () => {
           <img
             src="/car_logo.png"
             alt="Car Logo"
-            style={{ height: '30px', maxWidth: '100%', cursor: 'pointer' }}
+            style={{ height: '70px', maxWidth: '100%', cursor: 'pointer' }}
           />
           <Typography variant="h6" component="div" sx={{ textAlign: 'center', color: '#fff' }}>
             {/* Navigation Content Goes Here */}
@@ -87,11 +87,28 @@ const Navbar = () => {
         </Toolbar>
       </AppBar>
       {/* Hero Image */}
-      <img
-        src="/hero_image.webp"
-        alt="Hero Image"
-        style={{ width: '100%', height: 'auto' }}
-      />
+      <div style={{ position: 'relative' }}>
+        <Typography
+          variant="h4"
+          component="div"
+          sx={{
+            position: 'absolute',
+            top: '5%',
+            left: '5%',
+            color: '#1C3659',
+            fontWeight: 'bold',
+            zIndex: 1,
+            fontSize: '4vw', // Responsive font size
+          }}
+        >
+          Wisdom Guides Your Perfect Ride.
+        </Typography>
+        <img
+          src="/hero_image.webp"
+          alt="Hero Image"
+          style={{ width: '100%', height: 'auto' }}
+        />
+      </div>
     </div>
   );
 };

@@ -29,12 +29,26 @@ const Navbar = () => {
             backgroundColor: '#C3CEDB',
             padding: '8px 16px',
             borderRadius: '4px',
-            color: '#88835C',
+            color: '#000', // Change font color to black
+            fontSize: '1rem',
+            cursor: 'pointer',
+            marginRight: '16px',
+          }}
+        >
+          Products
+        </Box>
+        <Box
+          component="div"
+          sx={{
+            backgroundColor: '#C3CEDB',
+            padding: '8px 16px',
+            borderRadius: '4px',
+            color: '#000', // Change font color to black
             fontSize: '1rem',
             cursor: 'pointer',
           }}
         >
-          Products
+          Pages
         </Box>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center', color: '#fff' }}>
           {/* Navigation Content Goes Here */}

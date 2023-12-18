@@ -8,16 +8,13 @@ import Box from '@mui/material/Box';
 const Navbar = () => {
   return (
     <div>
-      <AppBar position="static" sx={{ backgroundColor: '#88835C' }}>
+      <AppBar position="static" sx={{ backgroundColor: '#C3CEDB' }}>
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
           <Box
             component="div"
             sx={{
-              backgroundColor: '#C3CEDB',
-              padding: '8px 16px',
-              borderRadius: '4px',
               color: '#88835C',
-              fontSize: '1rem',
+              fontSize: '1.5rem',
               cursor: 'pointer',
             }}
           >
@@ -26,12 +23,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-              backgroundColor: '#C3CEDB',
-              padding: '8px 16px',
-              borderRadius: '4px',
-              color: '#000',
-              fontSize: '1rem',
-              cursor: 'pointer',
+                color: '#1E2859',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
             }}
           >
             Products
@@ -39,12 +33,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-              backgroundColor: '#C3CEDB',
-              padding: '8px 16px',
-              borderRadius: '4px',
-              color: '#000',
-              fontSize: '1rem',
-              cursor: 'pointer',
+                color: '#1E2859',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
             }}
           >
             Pages
@@ -52,12 +43,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-              backgroundColor: '#C3CEDB',
-              padding: '8px 16px',
-              borderRadius: '4px',
-              color: '#000',
-              fontSize: '1rem',
-              cursor: 'pointer',
+                color: '#1E2859',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
             }}
           >
             Blog
@@ -65,12 +53,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-              backgroundColor: '#C3CEDB',
-              padding: '8px 16px',
-              borderRadius: '4px',
-              color: '#000',
-              fontSize: '1rem',
-              cursor: 'pointer',
+                color: '#1E2859',
+                fontSize: '1.5rem',
+                cursor: 'pointer',
             }}
           >
             Contact Us
@@ -102,6 +87,21 @@ const Navbar = () => {
           }}
         >
           Wisdom Guides Your Perfect Ride.
+        </Typography>
+        <Typography
+          variant="h5"
+          component="div"
+          sx={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            textAlign: 'center',
+            color: '#1C3659',
+            fontSize: '1.5vw',
+          }}
+        >
+          Unleash the wisdom of a well-crafted driving experience. Receive curated content that reflects the sage within you.
         </Typography>
         <img
           src="/hero_image.webp"

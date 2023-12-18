@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 const Navbar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: '#88835C' }}>
-      <Toolbar>
+      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
         <Box
           component="div"
           sx={{
@@ -18,7 +18,6 @@ const Navbar = () => {
             color: '#88835C',
             fontSize: '1rem',
             cursor: 'pointer',
-            marginRight: '16px',
           }}
         >
           Home
@@ -32,7 +31,6 @@ const Navbar = () => {
             color: '#000',
             fontSize: '1rem',
             cursor: 'pointer',
-            marginRight: '16px',
           }}
         >
           Products
@@ -46,7 +44,6 @@ const Navbar = () => {
             color: '#000',
             fontSize: '1rem',
             cursor: 'pointer',
-            marginRight: '16px',
           }}
         >
           Pages
@@ -60,7 +57,6 @@ const Navbar = () => {
             color: '#000',
             fontSize: '1rem',
             cursor: 'pointer',
-            marginRight: '16px',
           }}
         >
           Blog
@@ -74,7 +70,6 @@ const Navbar = () => {
             color: '#000',
             fontSize: '1rem',
             cursor: 'pointer',
-            marginRight: '16px',
           }}
         >
           Contact Us
@@ -83,9 +78,9 @@ const Navbar = () => {
         <img
           src="/car_logo.png"
           alt="Logo"
-          style={{ height: '70px', maxWidth: '100%', marginLeft: '16px', cursor: 'pointer' }}
+          style={{ height: '70px', maxWidth: '100%', cursor: 'pointer' }}
         />
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center', color: '#fff' }}>
+        <Typography variant="h6" component="div" sx={{ textAlign: 'center', color: '#fff' }}>
           {/* Navigation Content Goes Here */}
         </Typography>
       </Toolbar>

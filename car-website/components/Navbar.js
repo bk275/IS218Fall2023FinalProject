@@ -282,6 +282,37 @@ const Navbar = () => {
     {/* Other Testimonial Content Goes Here */}
   </div>
   </div>
+  <div style={{ textAlign: 'center', marginTop: '40px' }}>
+  <div
+    style={{
+      backgroundColor: '#C3CEDB',
+      borderRadius: '6px',
+      padding: '20px',
+      width: '60%',
+      margin: 'auto',
+    }}
+  >
+    <Typography
+      variant="h5"
+      component="div"
+      sx={{ 
+        color: '#000', 
+        fontWeight: 'bold', 
+        marginBottom: '20px',
+      }}
+    >
+    </Typography>
+    <Typography
+      variant="body1"
+      component="div"
+      sx={{ color: '#000' }}
+    >
+      Our Models are engineered with precision and expertise. 
+      Its cutting-edge technology ensures a seamless driving experience, while its safety features have earned it a 5-star rating. 
+      Explore the future of our automotive innovation.
+    </Typography>
+  </div>
+</div>
   </div>
   );
 };

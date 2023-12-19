@@ -160,29 +160,43 @@ const Navbar = () => {
       </Typography>
       <div
         style={{
-          backgroundColor: '#1C3659',
-          borderRadius: '6px',
-          padding: '20px',
-          textAlign: 'center',
-          marginTop: '20px',
-          width: '33%',
-          margin: 'auto',
+            backgroundColor: '#1C3659',
+            borderRadius: '6px',
+            padding: '20px',
+            textAlign: 'center',
+            marginTop: '25px',
+            width: '33%', // Take up 1/3 of the screen width
+            position: 'relative', // Changed to relative positioning
+            margin: 'auto',
+            left: '-30%',
         }}
       >
         {/* Testimonial Image */}
         <img
           src="/testimonial_image1.jpg"
           alt="Testimonial"
-          style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px' }}
+          style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
         />
         {/* Testimonial Title */}
         <Typography
           variant="h6"
           component="div"
-          sx={{ color: '#fff', fontWeight: 'bold' }}
+          sx={{ 
+            color: '#fff', 
+            fontWeight: 'bold', 
+            marginTop: '-30px',
+        }}
         >
-          Testimonial Title
+          Stephanie Karl
         </Typography>
+        {/* Testimonial Quote */}
+<Typography
+  variant="body1"
+  component="div"
+  sx={{ color: '#fff', marginTop: '10px' }}
+>
+  "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle. I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
+</Typography>
         {/* Other Testimonial Content Goes Here */}
       </div>
     </div>

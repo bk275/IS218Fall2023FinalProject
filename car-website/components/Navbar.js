@@ -408,12 +408,21 @@ const Navbar = () => {
           </div>
           {/* Third Text Section */}
           <div style={{ width: '30%' }}>
-            <Typography variant="h6" component="div">
-              Section 3
+            <Typography variant="h6"
+              component="div"
+              sx={{
+                color: '#43D9BC',
+                fontWeight: 'bold',
+                marginBottom: '20px',
+              }}
+            >
+              Follow Us
             </Typography>
-            <Typography variant="body1" component="div">
-              Text for the third section.
-            </Typography>
+            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <img src="/facebook_icon.png" alt="Social Media Icon 1" style={{ width: '30px', height: '30px' }} />
+              <img src="/instagram_icon.png" alt="Social Media Icon 2" style={{ width: '30px', height: '30px' }} />
+              <img src="/twitter_icon.png" alt="Social Media Icon 3" style={{ width: '30px', height: '30px' }} />
+            </div>
           </div>
         </div>
       </div>

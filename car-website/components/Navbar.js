@@ -5,6 +5,8 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+
 
 const Navbar = () => {
   return (
@@ -131,8 +133,12 @@ const Navbar = () => {
             maxWidth: '250px',
             width: '100%',
             height: '5.5vh',
+            marginRight: '8px',
         }}
         />
+        <Button variant="contained" color="primary" size="small">
+          Submit
+        </Button>
       </div>
         <img
           src="/hero_image.webp"

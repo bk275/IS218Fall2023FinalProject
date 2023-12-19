@@ -1,8 +1,8 @@
-// components/CookieConsent.js
 import React, { useState, useEffect } from 'react';
 import Snackbar from '@mui/material/Snackbar';
 import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
+import CloseIcon from '@mui/icons-material/Cancel';
+
 
 const CookieConsent = () => {
   const [open, setOpen] = useState(true);

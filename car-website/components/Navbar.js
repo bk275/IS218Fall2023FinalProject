@@ -311,9 +311,16 @@ const Navbar = () => {
       Its cutting-edge technology ensures a seamless driving experience, while its safety features have earned it a 5-star rating. 
       Explore the future of our automotive innovation.
     </Typography>
-  </div>
-</div>
-  </div>
+      </div>
+      <Button
+      variant="contained"
+      color="primary" // Background color #43D9BC
+      sx={{ marginTop: '20px', color: '#fff', textTransform: 'capitalize'}} // White font color
+    >
+      Schedule Test Drive
+    </Button>
+    </div>
+    </div>
   );
 };
 

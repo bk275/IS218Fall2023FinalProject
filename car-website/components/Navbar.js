@@ -325,14 +325,13 @@ const Navbar = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           {/* First Text Section */}
           <div style={{ width: '30%' }}>
-            <Typography 
-              variant="h5" 
+            <Typography
+              variant="h6"
               component="div"
               sx={{
                 color: '#43D9BC',
-                fontWeight: 'bold',
                 marginBottom: '20px',
-              }}  
+              }}
             >
               Contact Us
             </Typography>
@@ -353,11 +352,58 @@ const Navbar = () => {
           </div>
           {/* Second Text Section */}
           <div style={{ width: '30%' }}>
-            <Typography variant="h6" component="div">
-              Section 2
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{
+                color: '#43D9BC',
+                fontweight: 'bold',
+                marginBottom: '20px',
+              }}
+            >
+              Quick Links
             </Typography>
-            <Typography variant="body1" component="div">
-              Text for the second section.
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Home</a>
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Products</a>
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Pages</a>
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Blog</a>
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Contact Us</a>
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000', marginBottom: '10px' }}
+            >
+              <a href="#">Privacy Policy</a>
             </Typography>
           </div>
           {/* Third Text Section */}

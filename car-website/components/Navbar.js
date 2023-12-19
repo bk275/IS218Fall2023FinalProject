@@ -146,6 +146,18 @@ const Navbar = () => {
           style={{ width: '100%', height: 'auto' }}
         />
       </div>
+      <Typography
+        variant="h4"
+        component="div"
+        sx={{
+          textAlign: 'center',
+          marginTop: '20px', // Adjust the spacing as needed
+          color: '#1C3659',
+          fontWeight: 'bold',
+        }}
+      >
+        Customer Testimonials
+      </Typography>
     </div>
   );
 };

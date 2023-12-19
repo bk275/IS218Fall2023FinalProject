@@ -158,6 +158,33 @@ const Navbar = () => {
       >
         Customer Testimonials
       </Typography>
+      <div
+        style={{
+          backgroundColor: '#1C3659',
+          borderRadius: '6px',
+          padding: '20px',
+          textAlign: 'center',
+          marginTop: '20px',
+          width: '33%',
+          margin: 'auto',
+        }}
+      >
+        {/* Testimonial Image */}
+        <img
+          src="/testimonial_image1.jpg"
+          alt="Testimonial"
+          style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px' }}
+        />
+        {/* Testimonial Title */}
+        <Typography
+          variant="h6"
+          component="div"
+          sx={{ color: '#fff', fontWeight: 'bold' }}
+        >
+          Testimonial Title
+        </Typography>
+        {/* Other Testimonial Content Goes Here */}
+      </div>
     </div>
   );
 };

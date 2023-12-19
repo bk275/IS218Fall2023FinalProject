@@ -78,6 +78,9 @@ const Navbar = () => {
           component="div"
           sx={{
             position: 'absolute',
+            background: 'rgba(195, 206, 219, 0.4)',
+            padding: '8px 16px',
+            borderRadius: '4px',
             top: '5%',
             left: '5%',
             color: '#1C3659',
@@ -93,6 +96,9 @@ const Navbar = () => {
           component="div"
           sx={{
             position: 'absolute',
+            background: 'rgba(195, 206, 219, 0.4)',
+            padding: '8px 16px',
+            borderRadius: '4px',
             top: '50%',
             left: '50%',
             transform: 'translate(-50%, -50%)',

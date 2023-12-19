@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <h1>Welcome to our Car Dealership</h1>
       {/* Add more content as needed */}
     </div>
   );

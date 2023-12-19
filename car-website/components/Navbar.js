@@ -325,11 +325,30 @@ const Navbar = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           {/* First Text Section */}
           <div style={{ width: '30%' }}>
-            <Typography variant="h6" component="div">
-              Section 1
+            <Typography 
+              variant="h5" 
+              component="div"
+              sx={{
+                color: '#43D9BC',
+                fontWeight: 'bold',
+                marginBottom: '20px',
+              }}  
+            >
+              Contact Us
             </Typography>
-            <Typography variant="body1" component="div">
-              Text for the first section.
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000' }}
+            >
+              Email: info@dealership.com
+            </Typography>
+            <Typography
+              variant="body1"
+              component="div"
+              sx={{ color: '#000' }}
+            >
+              Phone: (555)123-4567
             </Typography>
           </div>
           {/* Second Text Section */}

@@ -4,6 +4,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 
 const Navbar = () => {
   return (
@@ -105,10 +106,34 @@ const Navbar = () => {
             textAlign: 'center',
             color: '#1C3659',
             fontSize: '1.5vw',
+            width: '25%',
           }}
         >
           Unleash the wisdom of a well-crafted driving experience. Receive curated content that reflects the sage within you.
         </Typography>
+        <div
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '75%',
+          transform: 'translateX(-50%)',
+          textAlign: 'center',
+        }}
+      >
+        <TextField
+          id="email"
+          label="Enter Email"
+          variant="outlined"
+          size="small"
+          sx={{ 
+            backgroundColor: '#fff', 
+            borderRadius: '6px', 
+            maxWidth: '250px',
+            width: '100%',
+            height: '5.5vh',
+        }}
+        />
+      </div>
         <img
           src="/hero_image.webp"
           alt="Hero Image"

@@ -151,55 +151,138 @@ const Navbar = () => {
         component="div"
         sx={{
           textAlign: 'center',
-          marginTop: '20px', // Adjust the spacing as needed
+          marginTop: '40px',
+          marginBottom: '20px',
           color: '#1C3659',
           fontWeight: 'bold',
         }}
       >
         Customer Testimonials
       </Typography>
-      <div
-        style={{
-            backgroundColor: '#1C3659',
-            borderRadius: '6px',
-            padding: '20px',
-            textAlign: 'center',
-            marginTop: '25px',
-            width: '33%', // Take up 1/3 of the screen width
-            position: 'relative', // Changed to relative positioning
-            margin: 'auto',
-            left: '-30%',
-        }}
-      >
-        {/* Testimonial Image */}
-        <img
-          src="/testimonial_image1.jpg"
-          alt="Testimonial"
-          style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
-        />
-        {/* Testimonial Title */}
-        <Typography
-          variant="h6"
-          component="div"
-          sx={{ 
-            color: '#fff', 
-            fontWeight: 'bold', 
-            marginTop: '-30px',
-        }}
-        >
-          Stephanie Karl
-        </Typography>
-        {/* Testimonial Quote */}
-<Typography
-  variant="body1"
-  component="div"
-  sx={{ color: '#fff', marginTop: '10px' }}
->
-  "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle. I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
-</Typography>
-        {/* Other Testimonial Content Goes Here */}
-      </div>
-    </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '25px' }}>
+  {/* First Testimonial Box */}
+  <div
+    style={{
+      backgroundColor: '#C3CEDB',
+      borderRadius: '6px',
+      padding: '20px',
+      textAlign: 'center',
+      width: '30%',
+      position: 'relative',
+    }}
+  >
+    {/* Testimonial Image */}
+    <img
+      src="/testimonial_image1.jpg"
+      alt="Testimonial"
+      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+    />
+    {/* Testimonial Title */}
+    <Typography
+      variant="h5"
+      component="div"
+      sx={{ 
+        color: '#000', 
+        fontWeight: 'bold', 
+        marginTop: '-30px',
+      }}
+    >
+      Stephanie Karl
+    </Typography>
+    {/* Testimonial Quote */}
+    <Typography
+      variant="body1"
+      component="div"
+      sx={{ color: '#000', marginTop: '10px' }}
+    >
+      "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle. 
+      I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
+    </Typography>
+    {/* Other Testimonial Content Goes Here */}
+  </div>
+  
+  {/* Second Testimonial Box */}
+  <div
+    style={{
+      backgroundColor: '#C3CEDB',
+      borderRadius: '6px',
+      padding: '20px',
+      textAlign: 'center',
+      width: '30%',
+      position: 'relative',
+    }}
+  >
+    {/* Testimonial Image */}
+    <img
+      src="/testimonial_image2.jpeg"
+      alt="Testimonial"
+      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+    />
+    {/* Testimonial Title */}
+    <Typography
+      variant="h5"
+      component="div"
+      sx={{ 
+        color: '#000', 
+        fontWeight: 'bold', 
+        marginTop: '-30px',
+      }}
+    >
+      Joseph Patel
+    </Typography>
+    {/* Updated Testimonial Quote */}
+    <Typography
+      variant="body1"
+      component="div"
+      sx={{ color: '#000', marginTop: '10px' }}
+    >
+      "Choosing a car on this website felt like consulting with a wise mentor. The information provided was insightful, helping me make a decision that aligns perfectly with my needs and values."
+    </Typography>
+    {/* Other Testimonial Content Goes Here */}
+  </div>
+
+  {/* Third Testimonial Box */}
+  <div
+    style={{
+      backgroundColor: '#C3CEDB',
+      borderRadius: '6px',
+      padding: '20px',
+      textAlign: 'center',
+      width: '30%',
+      position: 'relative',
+    }}
+  >
+    {/* Testimonial Image */}
+    <img
+      src="/testimonial_image3.jpg"
+      alt="Testimonial"
+      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+    />
+    {/* Testimonial Title */}
+    <Typography
+      variant="h5"
+      component="div"
+      sx={{ 
+        color: '#000', 
+        fontWeight: 'bold', 
+        marginTop: '-30px',
+      }}
+    >
+      Elliot Rodger
+    </Typography>
+    {/* Testimonial Quote */}
+    <Typography
+      variant="body1"
+      component="div"
+      sx={{ color: '#000', marginTop: '10px' }}
+    >
+      "In a world filled with options, this platform stood out as a beacon of wisdom. 
+      The insights provided helped me see beyond the surface, making my car-buying journey a mindful and fulfilling experience."
+    </Typography>
+    {/* Other Testimonial Content Goes Here */}
+  </div>
+  </div>
+  </div>
   );
 };
 

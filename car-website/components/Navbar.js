@@ -7,7 +7,6 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-
 const Navbar = () => {
   return (
     <div>
@@ -26,9 +25,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-                color: '#1E2859',
-                fontSize: '1.5rem',
-                cursor: 'pointer',
+              color: '#1E2859',
+              fontSize: '1.5rem',
+              cursor: 'pointer',
             }}
           >
             Products
@@ -36,9 +35,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-                color: '#1E2859',
-                fontSize: '1.5rem',
-                cursor: 'pointer',
+              color: '#1E2859',
+              fontSize: '1.5rem',
+              cursor: 'pointer',
             }}
           >
             Pages
@@ -46,9 +45,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-                color: '#1E2859',
-                fontSize: '1.5rem',
-                cursor: 'pointer',
+              color: '#1E2859',
+              fontSize: '1.5rem',
+              cursor: 'pointer',
             }}
           >
             Blog
@@ -56,9 +55,9 @@ const Navbar = () => {
           <Box
             component="div"
             sx={{
-                color: '#1E2859',
-                fontSize: '1.5rem',
-                cursor: 'pointer',
+              color: '#1E2859',
+              fontSize: '1.5rem',
+              cursor: 'pointer',
             }}
           >
             Contact Us
@@ -114,32 +113,32 @@ const Navbar = () => {
           Unleash the wisdom of a well-crafted driving experience. Receive curated content that reflects the sage within you.
         </Typography>
         <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '75%',
-          transform: 'translateX(-50%)',
-          textAlign: 'center',
-        }}
-      >
-        <TextField
-          id="email"
-          label="Enter Email"
-          variant="outlined"
-          size="small"
-          sx={{ 
-            backgroundColor: '#fff', 
-            borderRadius: '6px', 
-            maxWidth: '250px',
-            width: '100%',
-            height: '5.5vh',
-            marginRight: '8px',
-        }}
-        />
-        <Button variant="contained" color="primary" size="small">
-          Submit
-        </Button>
-      </div>
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '75%',
+            transform: 'translateX(-50%)',
+            textAlign: 'center',
+          }}
+        >
+          <TextField
+            id="email"
+            label="Enter Email"
+            variant="outlined"
+            size="small"
+            sx={{
+              backgroundColor: '#fff',
+              borderRadius: '6px',
+              maxWidth: '250px',
+              width: '100%',
+              height: '5.5vh',
+              marginRight: '8px',
+            }}
+          />
+          <Button variant="contained" color="primary" size="small">
+            Submit
+          </Button>
+        </div>
         <img
           src="/hero_image.webp"
           alt="Hero Image"
@@ -160,166 +159,199 @@ const Navbar = () => {
         Customer Testimonials
       </Typography>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '25px' }}>
-  {/* First Testimonial Box */}
-  <div
-    style={{
-      backgroundColor: '#C3CEDB',
-      borderRadius: '6px',
-      padding: '20px',
-      textAlign: 'center',
-      width: '30%',
-      position: 'relative',
-    }}
-  >
-    {/* Testimonial Image */}
-    <img
-      src="/testimonial_image1.jpg"
-      alt="Testimonial"
-      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
-    />
-    {/* Testimonial Title */}
-    <Typography
-      variant="h5"
-      component="div"
-      sx={{ 
-        color: '#000', 
-        fontWeight: 'bold', 
-        marginTop: '-30px',
-      }}
-    >
-      Stephanie Karl
-    </Typography>
-    {/* Testimonial Quote */}
-    <Typography
-      variant="body1"
-      component="div"
-      sx={{ color: '#000', marginTop: '10px' }}
-    >
-      "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle. 
-      I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
-    </Typography>
-    {/* Other Testimonial Content Goes Here */}
-  </div>
-  
-  {/* Second Testimonial Box */}
-  <div
-    style={{
-      backgroundColor: '#C3CEDB',
-      borderRadius: '6px',
-      padding: '20px',
-      textAlign: 'center',
-      width: '30%',
-      position: 'relative',
-    }}
-  >
-    {/* Testimonial Image */}
-    <img
-      src="/testimonial_image2.jpeg"
-      alt="Testimonial"
-      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
-    />
-    {/* Testimonial Title */}
-    <Typography
-      variant="h5"
-      component="div"
-      sx={{ 
-        color: '#000', 
-        fontWeight: 'bold', 
-        marginTop: '-30px',
-      }}
-    >
-      Joseph Patel
-    </Typography>
-    {/* Updated Testimonial Quote */}
-    <Typography
-      variant="body1"
-      component="div"
-      sx={{ color: '#000', marginTop: '10px' }}
-    >
-      "Choosing a car on this website felt like consulting with a wise mentor. The information provided was insightful, helping me make a decision that aligns perfectly with my needs and values."
-    </Typography>
-    {/* Other Testimonial Content Goes Here */}
-  </div>
+        {/* First Testimonial Box */}
+        <div
+          style={{
+            backgroundColor: '#C3CEDB',
+            borderRadius: '6px',
+            padding: '20px',
+            textAlign: 'center',
+            width: '30%',
+            position: 'relative',
+          }}
+        >
+          {/* Testimonial Image */}
+          <img
+            src="/testimonial_image1.jpg"
+            alt="Testimonial"
+            style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+          />
+          {/* Testimonial Title */}
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{
+              color: '#000',
+              fontWeight: 'bold',
+              marginTop: '-30px',
+            }}
+          >
+            Stephanie Karl
+          </Typography>
+          {/* Testimonial Quote */}
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{ color: '#000', marginTop: '10px' }}
+          >
+            "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle.
+            I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
+          </Typography>
+          {/* Other Testimonial Content Goes Here */}
+        </div>
 
-  {/* Third Testimonial Box */}
-  <div
-    style={{
-      backgroundColor: '#C3CEDB',
-      borderRadius: '6px',
-      padding: '20px',
-      textAlign: 'center',
-      width: '30%',
-      position: 'relative',
-    }}
-  >
-    {/* Testimonial Image */}
-    <img
-      src="/testimonial_image3.jpg"
-      alt="Testimonial"
-      style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
-    />
-    {/* Testimonial Title */}
-    <Typography
-      variant="h5"
-      component="div"
-      sx={{ 
-        color: '#000', 
-        fontWeight: 'bold', 
-        marginTop: '-30px',
-      }}
-    >
-      Elliot Rodger
-    </Typography>
-    {/* Testimonial Quote */}
-    <Typography
-      variant="body1"
-      component="div"
-      sx={{ color: '#000', marginTop: '10px' }}
-    >
-      "In a world filled with options, this platform stood out as a beacon of wisdom. 
-      The insights provided helped me see beyond the surface, making my car-buying journey a mindful and fulfilling experience."
-    </Typography>
-    {/* Other Testimonial Content Goes Here */}
-  </div>
-  </div>
-  <div style={{ textAlign: 'center', marginTop: '40px' }}>
-  <div
-    style={{
-      backgroundColor: '#C3CEDB',
-      borderRadius: '6px',
-      padding: '20px',
-      width: '60%',
-      margin: 'auto',
-    }}
-  >
-    <Typography
-      variant="h5"
-      component="div"
-      sx={{ 
-        color: '#000', 
-        fontWeight: 'bold', 
-        marginBottom: '20px',
-      }}
-    >
-    </Typography>
-    <Typography
-      variant="body1"
-      component="div"
-      sx={{ color: '#000' }}
-    >
-      Our Models are engineered with precision and expertise. 
-      Its cutting-edge technology ensures a seamless driving experience, while its safety features have earned it a 5-star rating. 
-      Explore the future of our automotive innovation.
-    </Typography>
+        {/* Second Testimonial Box */}
+        <div
+          style={{
+            backgroundColor: '#C3CEDB',
+            borderRadius: '6px',
+            padding: '20px',
+            textAlign: 'center',
+            width: '30%',
+            position: 'relative',
+          }}
+        >
+          {/* Testimonial Image */}
+          <img
+            src="/testimonial_image2.jpeg"
+            alt="Testimonial"
+            style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+          />
+          {/* Testimonial Title */}
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{
+              color: '#000',
+              fontWeight: 'bold',
+              marginTop: '-30px',
+            }}
+          >
+            Joseph Patel
+          </Typography>
+          {/* Updated Testimonial Quote */}
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{ color: '#000', marginTop: '10px' }}
+          >
+            "Choosing a car on this website felt like consulting with a wise mentor. The information provided was insightful, helping me make a decision that aligns perfectly with my needs and values."
+          </Typography>
+          {/* Other Testimonial Content Goes Here */}
+        </div>
+
+        {/* Third Testimonial Box */}
+        <div
+          style={{
+            backgroundColor: '#C3CEDB',
+            borderRadius: '6px',
+            padding: '20px',
+            textAlign: 'center',
+            width: '30%',
+            position: 'relative',
+          }}
+        >
+          {/* Testimonial Image */}
+          <img
+            src="/testimonial_image3.jpg"
+            alt="Testimonial"
+            style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '10px', position: 'relative', top: '-40px' }}
+          />
+          {/* Testimonial Title */}
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{
+              color: '#000',
+              fontWeight: 'bold',
+              marginTop: '-30px',
+            }}
+          >
+            Elliot Rodger
+          </Typography>
+          {/* Testimonial Quote */}
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{ color: '#000', marginTop: '10px' }}
+          >
+            "In a world filled with options, this platform stood out as a beacon of wisdom.
+            The insights provided helped me see beyond the surface, making my car-buying journey a mindful and fulfilling experience."
+          </Typography>
+          {/* Other Testimonial Content Goes Here */}
+        </div>
       </div>
-      <Button
-      variant="contained"
-      color="primary" // Background color #43D9BC
-      sx={{ marginTop: '20px', color: '#fff', textTransform: 'capitalize'}} // White font color
-    >
-      Schedule Test Drive
-    </Button>
-    </div>
+      <div style={{ textAlign: 'center', marginTop: '40px' }}>
+        <div
+          style={{
+            backgroundColor: '#C3CEDB',
+            borderRadius: '6px',
+            padding: '20px',
+            width: '60%',
+            margin: 'auto',
+          }}
+        >
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{
+              color: '#000',
+              fontWeight: 'bold',
+              marginBottom: '20px',
+            }}
+          >
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            sx={{ color: '#000' }}
+          >
+            Our Models are engineered with precision and expertise.
+            Its cutting-edge technology ensures a seamless driving experience, while its safety features have earned it a 5-star rating.
+            Explore the future of our automotive innovation.
+          </Typography>
+        </div>
+        <Button
+          variant="contained"
+          color="primary" // Background color #43D9BC
+          sx={{ marginTop: '20px', color: '#fff', marginBottom: '20px', textTransform: 'capitalize' }} // White font color
+        >
+          Schedule Test Drive
+        </Button>
+      </div>
+
+      {/* New Section Below Schedule Test Drive Button */}
+      <div style={{ backgroundColor: '#333', padding: '40px 0', color: '#fff', textAlign: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          {/* First Text Section */}
+          <div style={{ width: '30%' }}>
+            <Typography variant="h6" component="div">
+              Section 1
+            </Typography>
+            <Typography variant="body1" component="div">
+              Text for the first section.
+            </Typography>
+          </div>
+          {/* Second Text Section */}
+          <div style={{ width: '30%' }}>
+            <Typography variant="h6" component="div">
+              Section 2
+            </Typography>
+            <Typography variant="body1" component="div">
+              Text for the second section.
+            </Typography>
+          </div>
+          {/* Third Text Section */}
+          <div style={{ width: '30%' }}>
+            <Typography variant="h6" component="div">
+              Section 3
+            </Typography>
+            <Typography variant="body1" component="div">
+              Text for the third section.
+            </Typography>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

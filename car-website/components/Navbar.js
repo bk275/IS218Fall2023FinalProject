@@ -195,8 +195,8 @@ const Navbar = () => {
             component="div"
             sx={{ color: '#000', marginTop: '10px' }}
           >
-            "The guidance I received here was invaluable. It's not just about cars; it's about making a wise choice for your lifestyle.
-            I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision."
+            &ldquo;The guidance I received here was invaluable. It&apos;s not just about cars; it&apos;s about making a wise choice for your lifestyle.
+            I appreciated the thoughtful recommendations and transparent details that empowered me to make an informed decision.&rdquo;
           </Typography>
           {/* Other Testimonial Content Goes Here */}
         </div>
@@ -236,7 +236,8 @@ const Navbar = () => {
             component="div"
             sx={{ color: '#000', marginTop: '10px' }}
           >
-            "Choosing a car on this website felt like consulting with a wise mentor. The information provided was insightful, helping me make a decision that aligns perfectly with my needs and values."
+            &ldquo;Choosing a car on this website felt like consulting with a wise mentor. 
+            The information provided was insightful, helping me make a decision that aligns perfectly with my needs and values.&rdquo;
           </Typography>
           {/* Other Testimonial Content Goes Here */}
         </div>
@@ -276,8 +277,8 @@ const Navbar = () => {
             component="div"
             sx={{ color: '#000', marginTop: '10px' }}
           >
-            "In a world filled with options, this platform stood out as a beacon of wisdom.
-            The insights provided helped me see beyond the surface, making my car-buying journey a mindful and fulfilling experience."
+            &ldquo;In a world filled with options, this platform stood out as a beacon of wisdom.
+            The insights provided helped me see beyond the surface, making my car-buying journey a mindful and fulfilling experience.&rdquo;
           </Typography>
           {/* Other Testimonial Content Goes Here */}
         </div>

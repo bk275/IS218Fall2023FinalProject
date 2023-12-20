@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -403,7 +404,7 @@ const Navbar = () => {
               component="div"
               sx={{ color: '#000', marginBottom: '10px' }}
             >
-              <a href="#">Privacy Policy</a>
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </Typography>
           </div>
           {/* Third Text Section */}
